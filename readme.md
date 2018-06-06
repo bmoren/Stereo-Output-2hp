@@ -11,3 +11,6 @@ Most of the stereo outs on the market are quite large and with a nearness you ca
 + 2 mono thonkiconn jacks
 + 2 9mm tall trimmer pots
 + 1 stereo thonkiconn jack
+
+---
+[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
