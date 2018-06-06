@@ -12,5 +12,11 @@ Most of the stereo outs on the market are quite large and with a nearness you ca
 + 2 9mm tall trimmer pots
 + 1 stereo thonkiconn jack
 
+The only thing you need to know about assembly besides looking at the picture for parts placement is to solder the jacks first, then the pots.
+
+ I suggest you do the jacks while screwed into the panel. Then take the panel off and insert and bend the pots. When soldering the pots, put the panel back on again to make sure everything is lined up properly!
+
+ The stabilizing legs of the pots are bent around the outside of the PCB and soldered on the back side to rectangular pads. Make sure that the jacks remain vertical when doing this!
+
 ---
 [GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
