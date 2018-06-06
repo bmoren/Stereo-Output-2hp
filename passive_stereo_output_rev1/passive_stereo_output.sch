@@ -1,0 +1,142 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L thonkiconn_symbol:thonkiconn J1
+U 1 1 5B033236
+P 1550 2750
+F 0 "J1" H 1526 3075 50  0000 C CNN
+F 1 "thonkiconn" H 1526 2984 50  0000 C CNN
+F 2 "modular:Thonkiconn_small_holes" H 1800 2850 50  0001 C CNN
+F 3 "~" H 1800 2850 50  0001 C CNN
+	1    1550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L thonkiconn_symbol:thonkiconn J2
+U 1 1 5B0333AE
+P 1550 3500
+F 0 "J2" H 1526 3825 50  0000 C CNN
+F 1 "thonkiconn" H 1526 3734 50  0000 C CNN
+F 2 "modular:Thonkiconn_small_holes" H 1800 3600 50  0001 C CNN
+F 3 "~" H 1800 3600 50  0001 C CNN
+	1    1550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:POT RV1
+U 1 1 5B033559
+P 2100 2800
+F 0 "RV1" H 2030 2846 50  0000 R CNN
+F 1 "POT" H 2030 2755 50  0000 R CNN
+F 2 "modular:potentiometer_2hp_back_pad_mount" H 2100 2800 50  0001 C CNN
+F 3 "" H 2100 2800 50  0001 C CNN
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:POT RV2
+U 1 1 5B0335F1
+P 2100 3550
+F 0 "RV2" H 2030 3596 50  0000 R CNN
+F 1 "POT" H 2030 3505 50  0000 R CNN
+F 2 "modular:potentiometer_2hp_back_pad_mount" H 2100 3550 50  0001 C CNN
+F 3 "" H 2100 3550 50  0001 C CNN
+	1    2100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR01
+U 1 1 5B03381E
+P 1350 2850
+F 0 "#PWR01" H 1350 2600 50  0001 C CNN
+F 1 "GNDREF" H 1355 2677 50  0000 C CNN
+F 2 "" H 1350 2850 50  0001 C CNN
+F 3 "" H 1350 2850 50  0001 C CNN
+	1    1350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR02
+U 1 1 5B03383A
+P 1350 3600
+F 0 "#PWR02" H 1350 3350 50  0001 C CNN
+F 1 "GNDREF" H 1355 3427 50  0000 C CNN
+F 2 "" H 1350 3600 50  0001 C CNN
+F 3 "" H 1350 3600 50  0001 C CNN
+	1    1350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR03
+U 1 1 5B033AD8
+P 2100 2950
+F 0 "#PWR03" H 2100 2700 50  0001 C CNN
+F 1 "GNDREF" H 2105 2777 50  0000 C CNN
+F 2 "" H 2100 2950 50  0001 C CNN
+F 3 "" H 2100 2950 50  0001 C CNN
+	1    2100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4300 1800 4300
+Wire Wire Line
+	1750 3400 2100 3400
+$Comp
+L power:GNDREF #PWR04
+U 1 1 5B033CB9
+P 2100 3700
+F 0 "#PWR04" H 2100 3450 50  0001 C CNN
+F 1 "GNDREF" H 2105 3527 50  0000 C CNN
+F 2 "" H 2100 3700 50  0001 C CNN
+F 3 "" H 2100 3700 50  0001 C CNN
+	1    2100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3550 2250 4200
+Wire Wire Line
+	2250 4200 1800 4200
+NoConn ~ 1750 3500
+NoConn ~ 1750 2750
+Wire Wire Line
+	1750 2650 2100 2650
+Wire Wire Line
+	2250 2800 2800 2800
+Wire Wire Line
+	2800 2800 2800 4300
+$Comp
+L Connector:Audio-Jack-3 J3
+U 1 1 5B03371F
+P 1600 4300
+F 0 "J3" H 1576 4625 50  0000 C CNN
+F 1 "Audio-Jack-3" H 1576 4534 50  0000 C CNN
+F 2 "modular:Thonkiconn_small_holes" H 1850 4400 50  0001 C CNN
+F 3 "~" H 1850 4400 50  0001 C CNN
+	1    1600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR05
+U 1 1 5B04552F
+P 1400 4400
+F 0 "#PWR05" H 1400 4150 50  0001 C CNN
+F 1 "GNDREF" H 1405 4227 50  0000 C CNN
+F 2 "" H 1400 4400 50  0001 C CNN
+F 3 "" H 1400 4400 50  0001 C CNN
+	1    1400 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

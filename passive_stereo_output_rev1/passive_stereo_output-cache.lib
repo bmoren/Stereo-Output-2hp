@@ -1,0 +1,80 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector:Audio-Jack-3
+#
+DEF Connector:Audio-Jack-3 J 0 40 Y Y 1 F N
+F0 "J" -50 175 50 H V C CNN
+F1 "Connector:Audio-Jack-3" 100 -70 50 H V C CNN
+F2 "" 250 100 50 H I C CNN
+F3 "" 250 100 50 H I C CNN
+DRAW
+T 0 -25 50 30 0 0 0 1 Normal 0 C C
+T 0 -100 50 30 0 0 0 2 Normal 0 C C
+S -185 125 100 -25 0 1 10 f
+S -175 0 -205 100 0 1 0 F
+P 4 0 1 10 -50 0 -25 25 0 0 100 0 N
+P 4 0 1 10 100 100 -75 100 -100 75 -125 100 N
+X ~ 1 -200 -100 100 U 50 50 1 1 P
+X ~ 2 200 100 100 L 50 50 1 1 P
+X ~ 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# device:POT
+#
+DEF device:POT RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "device:POT" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 3 0 1 0 45 0 90 20 90 -20 F
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power:GNDREF
+#
+DEF power:GNDREF #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GNDREF" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GNDREF 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# thonkiconn_symbol:thonkiconn
+#
+DEF thonkiconn_symbol:thonkiconn J 0 40 Y Y 1 F N
+F0 "J" -50 175 50 H V C CNN
+F1 "thonkiconn_symbol:thonkiconn" 25 -75 50 H V C CNN
+F2 "" 250 100 50 H I C CNN
+F3 "" 250 100 50 H I C CNN
+DRAW
+T 0 -100 50 30 0 0 0 3 Normal 0 C C
+S -185 125 100 -25 0 1 10 f
+S -175 0 -205 100 0 1 0 F
+P 2 0 1 0 -25 95 -10 65 N
+P 4 0 1 0 100 0 -25 0 -25 95 -40 65 N
+P 4 0 1 10 100 100 -75 100 -100 75 -125 100 N
+X ~ 1 -200 -100 100 U 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
