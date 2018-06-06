@@ -19,4 +19,4 @@ The only thing you need to know about assembly besides looking at the picture fo
  The stabilizing legs of the pots are bent around the outside of the PCB and soldered on the back side to rectangular pads. Make sure that the jacks remain vertical when doing this!
 
 ---
-[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
